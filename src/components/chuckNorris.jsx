@@ -17,7 +17,7 @@ function ChuckNorris() {
   return (
     <div className="container">
       <h1>Chuck Norris Facts</h1>
-      <p className="facts">{facts}</p>
+      <p className="facts joke">{facts}</p>
       <button type="button" className="btn"
       onClick={getFacts}>
         Get Another Fact
