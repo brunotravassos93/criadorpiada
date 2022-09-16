@@ -4,11 +4,19 @@ import DadJoke from './components/dadJoke';
 function App() {
   return (
     <>
-      <ChuckNorris />
+      <nav>
+        <ul>
+          <li>
+            <link to='/'>Home Page</link>
+          </li>
+          <li>
+          <link to='/dadJoke'>Home Page</link>
 
-      <DadJoke />
+          </li>
+        </ul>
+      </nav>
     </>
   )
 }
 
-export default App
+export default App;

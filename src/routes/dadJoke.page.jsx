@@ -1,7 +1,10 @@
-import React from "react";
+import DadJoke from "../components/dadJoke";
 
 const DadJokePage = () => {
-   return <main>dad joke here</main>;
+   return (
+   <main>
+      <DadJoke />
+   </main>)
 };
 
 export default DadJokePage;
